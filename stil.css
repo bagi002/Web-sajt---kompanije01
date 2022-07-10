@@ -112,3 +112,64 @@ body {
     padding: 30px;
     font-size: 18pt;
 }
+
+#logo-holder img{
+    width: 300px;
+    height: 150px;
+}
+
+#O-nama{
+    text-align: center;
+
+}
+
+#O-nama h2{
+    padding-top: 40px;
+}
+
+.krugovi {
+    display: flex;
+    margin: 50px 0px;
+    
+
+}
+
+.Krug-holder {
+    flex-grow: 1;
+    display: inline-block;
+}
+
+.oznaka {
+    font-weight: bold;
+
+}
+
+.krug {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 25%;
+    height: 40px;
+    width: 40px;
+    font-size: 34pt;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.tehnologije
+{
+    display: flex;
+    margin: 50px 0px;
+}
+
+.tehnologija{
+    flex-grow: 1;
+    font-weight: bold;
+
+}
+
+.tehnologija img{
+    width: 48px;
+    height: 48px;
+}
