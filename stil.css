@@ -5,24 +5,26 @@ width: 900px;
 margin: 0px auto;
 height:auto;
 
+
 }
 
 .zaglavlje {
     border-bottom: 2px solid red;
+
 }
 
 .stranica{
     
     height:100vh;
+    margin: 0px;
 }
 
-.podnozije{
-    
-}
+
 
 #zaglavlje{
 
     display: flex;
+    
     
 
 }
@@ -76,3 +78,37 @@ body {
     padding: 0px;
 }
 
+#Pocetna{
+    background: url(grafika/pozadine/bg01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+#usluge{
+    background: url(grafika/pozadine/bg02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#karijera{
+    background: url(grafika/pozadine/bg03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Pocetna h1{
+    margin-top: 0px;
+    padding-top: calc(50vh - 220px);
+    font-weight: bold;
+    font-size: 48pt;
+}
+
+.dark-box{
+    background-color: rgba(37, 35, 35, 0.753);
+    border: 1px solid white;
+    padding: 30px;
+    font-size: 18pt;
+}
