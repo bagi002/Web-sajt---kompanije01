@@ -1,0 +1,78 @@
+.kolona{
+
+
+width: 900px;
+margin: 0px auto;
+height:auto;
+
+}
+
+.zaglavlje {
+    border-bottom: 2px solid red;
+}
+
+.stranica{
+    
+    height:100vh;
+}
+
+.podnozije{
+    
+}
+
+#zaglavlje{
+
+    display: flex;
+    
+
+}
+
+#logo-holder{
+    flex-grow: 1;
+}
+
+#drustvene-mreze{
+    flex-grow: 1;
+    text-align: right;
+    padding-top: 5px;
+}
+
+#meni{
+    display: flex;
+}
+
+
+
+#meni a {
+    flex-grow: 1;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    font-size: 16pt;
+    transition: 400ms;
+    padding: 8px;
+}
+
+#meni a:hover,
+#meni a.active{
+    background-color: red;
+    color: white;
+}
+
+#drustvene-mreze a{
+    
+    margin:5px;
+    text-decoration: none;
+}
+
+#drustvene-mreze img{
+    height: 40px;
+    width: 40px;
+    margin:5px 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
