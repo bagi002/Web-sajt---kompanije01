@@ -227,4 +227,114 @@ body {
     border-top: 1px solid white;
     font-size: 13pt;
 
+
+}
+
+#proizvodi h2{
+    padding-top: calc(50vh - 340px);
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 26pt;
+
+}
+
+.proizvodi {
+    margin-top: 45px;
+    display: grid;
+    grid-template: "a b c"
+                   "d b e"
+                   "f f g"   ;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    height: 500px;
+    width: 800px;
+    margin: 0px auto;
+
+}
+
+.proizvod {
+    display: grid;
+    grid-template: "slika";
+    justify-content: stretch;
+    align-content: stretch;
+    border: 1px solid rgba(255, 0, 0, 0.377);
+
+}
+
+.proizvod img {
+    grid-area: slika;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.text {
+    grid-area: slika;
+    justify-self: stretch;
+    align-self: stretch;
+    display: grid;
+    justify-content: space-around;
+    align-content: space-around;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 0, 0.678);
+    font-weight: bold;
+    font-size: 24pt;
+    opacity: 0;
+    transition: 400ms;
+
+}
+
+.proizvod:hover .text {
+    opacity: 1;
+}
+
+
+
+#Proizvod-A {
+    grid-area: a;
+
+    height: 150px;
+    width: 250px;
+}
+
+#Proizvod-B {
+    grid-area: b;
+
+    height: 325px;
+    width: 250px;
+}
+
+#Proizvod-C {
+    grid-area: c;
+
+    height: 150px;
+    width: 250px;
+}
+
+#Proizvod-D {
+    grid-area: d;
+
+    height: 150px;
+    width: 250px;
+}
+
+#Proizvod-E {
+    grid-area: e;
+
+    height: 150px;
+    width: 250px;
+}
+
+#Proizvod-F {
+    grid-area: f;
+
+    height: 150px;
+    width: 525px;
+}
+
+#Proizvod-G {
+    grid-area: g;
+
+    height: 150px;
+    width: 250px;
 }
